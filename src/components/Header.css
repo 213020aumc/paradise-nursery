@@ -1,0 +1,68 @@
+.main-header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #fff;
+}
+
+.brand-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: var(--secondary-green);
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.brand-name {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.tagline {
+  margin: 0;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #777;
+}
+
+.cart-icon-container {
+  position: relative;
+}
+
+.cart-icon {
+  font-size: 1.8rem;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background-color: var(--primary-green);
+  color: white;
+  border-radius: 50%;
+  padding: 3px 7px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+.page-title-bar {
+  background-color: var(--primary-green);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.page-title-bar h2 {
+  margin: 0;
+  font-weight: 500;
+}

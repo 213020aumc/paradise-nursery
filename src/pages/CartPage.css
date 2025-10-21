@@ -1,0 +1,127 @@
+.cart-page-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-content {
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+  box-shadow: var(--card-shadow);
+  text-align: center;
+}
+
+.cart-total-amount {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-items-list {
+  margin-top: 20px;
+}
+
+.cart-item-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item-card:last-child {
+  border-bottom: none;
+}
+
+.cart-item-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.cart-item-details {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  gap: 5px 20px;
+}
+
+.cart-item-name {
+  grid-column: 1 / 2;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cart-item-unit-price {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  text-align: right;
+  font-size: 1.1rem;
+}
+
+.quantity-controls {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-controls button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.cart-item-subtotal {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  text-align: right;
+  font-weight: bold;
+}
+
+.delete-btn {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  background-color: var(--danger-red);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  width: fit-content;
+}
+
+.cart-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.cart-action-btn {
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+}
+
+.continue-shopping-btn {
+  background-color: var(--primary-green);
+  color: white;
+}
+
+.checkout-btn {
+  background-color: var(--primary-green);
+  color: white;
+}
